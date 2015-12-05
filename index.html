@@ -9,7 +9,7 @@
 	
 	<!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -38,10 +38,20 @@
 
     </header><!--/header-->
 <section id="Old data" >
-     <div class="container " >
-  <h2 >Old data</h2>
-  <div class="well well-sm">Name</div>
-  <div class="well well-sm">Age</div>
+<div class="container">
+  <h2>Patient Details</h2>
+  <p>Enter the name and the Age or ID number</p>
+  <form role="form">
+    <div class="form-group">
+      <label for="usr">Name:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="pwd">AGE:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+  </form>
+</div>
 
 </div>
     
@@ -49,21 +59,11 @@
     
     
     <section  id="heart rate">
+    <div class="jumbotron">
+  <h1 class="text-center">Heartbeat data</h1> 
+
     
-    
-        <div class="container">
-          
-
-      
-
-
-            
-            <div class="container">
-  <div class="jumbotron">
-    <h2>Heartbeat data here</h2>      
-    <p>small description</p>
-      
-      
+       
    
             
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 600 300">
@@ -78,8 +78,7 @@
 	c0.1-0.5,0.9-0.5,1,0l1.9,9.3c0,0.2,0.1,0.2,0.1,0l0.3-1.4c0-0.1,0.1-0.1,0.2,0l1.3,3.9c0.1,0.2,0.3,0.3,0.5,0.3H600" />
 
 </svg> 
-           </div>
-     
+
 </div>
         
     </section>
@@ -94,7 +93,7 @@
                 <div class="features">
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-bullhorn"></i>
+                            <i class="fa fa-hospital-o"></i>
                             <h2>Adipisicing elit</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
@@ -102,7 +101,7 @@
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-comments"></i>
+                            <i class="fa fa-ambulance"></i>
                             <h2>Adipisicing elit</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
@@ -110,7 +109,7 @@
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-cloud-download"></i>
+                            <i class="fa fa-medkit"></i>
                             <h2>Adipisicing elit</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
@@ -126,7 +125,7 @@
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-cogs"></i>
+                            <i class="fa fa-heartbeat"></i>
                             <h2>Sed do eiusmod</h2>
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
                         </div>
@@ -152,8 +151,8 @@
 <div class="container">
                   
   <ul class="pager">
-    <li><a href="#">Previous</a></li>
-    <li><a href="#">Next</a></li>
+    <li><a href="#">Admit Patient</a></li>
+    <li><a href="#">Next Patient</a></li>
   </ul>
 </div>
 
